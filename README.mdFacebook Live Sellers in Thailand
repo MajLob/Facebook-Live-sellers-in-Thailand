@@ -1,4 +1,4 @@
-# Facebook Live Sellers in Thailand - UCI Machine Learning Repository
+Facebook Live Sellers in Thailand - UCI Machine Learning Repository
 Analysis of a dataset that captures the activities of Facebook Live sellers in Thailand. This goal isto understand patterns in engagement and activity metrics, which can help businesses and analysts in social commerce.
 
 Dataset Source: https://www.kaggle.com/datasets/ashishg21/facebook-live-sellers-in-thailand-uci-ml-repo
@@ -13,13 +13,13 @@ num_loves: Number of "love" reactions.
 num_wows, num_hahas, num_sads, num_angrys: Counts for each reaction type.
 
 
-## Exploratory Data Analysis
+Exploratory Data Analysis
 The notebook covers data exploration through:
 1. Descriptive Statistics and Box Plots: Summary statistics and box plots highlight distribution, ranges, and outliers across engagement metrics.
 2. Correlation Analysis: A correlation heatmap reveals relationships among reactions, comments, and shares.
 3. Clustering and PCA: Clustering (using K-Means, Agglomerative Clustering, and DBSCAN) and dimensionality reduction (PCA) are applied to uncover patterns in user engagement.
 
-## Data Conclusions
+Data Conclusions
 Through dimensionality reduction and clustering, several engagement patterns were observed:
 1. Optimal Clustering Reveals Audience Segments: Using the Elbow Method in K-Means, an optimal cluster count is identified, showing distinct segments of posts based on engagement metrics. These clusters represent various levels and types of engagement (high comments, high reactions, etc.), valuable for targeting audience preferences.
 2. Dominance of Positive Reactions: The dataset shows that "likes" and "loves" dominate, indicating positive user sentiment during live-selling sessions. This suggests that users generally respond favorably to live-selling content.
